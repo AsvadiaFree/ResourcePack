@@ -1,0 +1,21 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/minerals/steel_nugget"},
+		{"predicate": {"custom_model_data":2}, "model": "item/minerals/steel_ingot"},
+		{"predicate": {"custom_model_data":3}, "model": "item/minerals/obsidian_nugget"},
+		{"predicate": {"custom_model_data":4}, "model": "item/minerals/obsidian_ingot"},
+		{"predicate": {"custom_model_data":5}, "model": "item/minerals/emerald_nugget"},
+		{"predicate": {"custom_model_data":6}, "model": "item/minerals/saphir"},
+		{"predicate": {"custom_model_data":7}, "model": "item/minerals/rubis"},
+		{"predicate": {"custom_model_data":8}, "model": "item/minerals/topaze"},
+		{"predicate": {"custom_model_data":9}, "model": "item/minerals/asvadium"},
+		{"predicate": {"custom_model_data":10}, "model": "item/minerals/asvadium_fragment"},
+		{"predicate": {"custom_model_data":11}, "model": "item/minerals/fragment_of_time"},
+		{"predicate": {"custom_model_data":12}, "model": "item/minerals/stone_of_time"}
+	]
+}

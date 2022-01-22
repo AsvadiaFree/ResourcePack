@@ -1,0 +1,69 @@
+{
+    "__comment": "Model By Symeloxk#9371",
+    "textures": {
+        "particle": "minecraft:block/tnt_side",
+        "tnt_side": "minecraft:block/tnt_side",
+        "tnt_bottom": "minecraft:block/tnt_bottom",
+        "tnt_top": "minecraft:block/tnt_top"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 15, 22, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 1, 1, 1]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "north": { "texture": "#tnt_side", "uv": [ 0, 0, 16, 16 ] },
+                "east": { "texture": "#tnt_side", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#tnt_side", "uv": [ 0, 0, 16, 16 ] },
+                "west": { "texture": "#tnt_side", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#tnt_top", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#tnt_bottom", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ -1, 5, -1 ],
+            "to": [ 17, 11, 17 ],
+            "faces": {
+                "north": { "texture": "#tnt_side", "uv": [ 0, 5, 16, 11 ] },
+                "east": { "texture": "#tnt_side", "uv": [ 0, 5, 16, 11 ] },
+                "south": { "texture": "#tnt_side", "uv": [ 0, 5, 16, 11 ] },
+                "west": { "texture": "#tnt_side", "uv": [ 0, 5, 16, 11 ], "tintindex": 0 },
+                "up": { "texture": "#tnt_side", "uv": [ 0, 5, 15, 6 ] },
+                "down": { "texture": "#tnt_side", "uv": [ 0, 5, 16, 6 ] }
+            }
+        }
+    ]
+}

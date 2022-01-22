@@ -1,0 +1,26 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/cyan_dye"
+	},
+
+	"overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/others/bug_medal"},
+    {"predicate": {"custom_model_data":2}, "model": "item/others/key_vote"},
+    {"predicate": {"custom_model_data":3}, "model": "item/others/key_commun"},
+    {"predicate": {"custom_model_data":4}, "model": "item/others/key_rare"},
+    {"predicate": {"custom_model_data":5}, "model": "item/others/key_epique"},
+    {"predicate": {"custom_model_data":6}, "model": "item/others/key_ultime"},
+    {"predicate": {"custom_model_data":7}, "model": "item/others/key_legendary"},
+    {"predicate": {"custom_model_data":8}, "model": "item/others/magic_sugar"},
+    {"predicate": {"custom_model_data":9}, "model": "item/others/parchment"},
+    {"predicate": {"custom_model_data":10}, "model": "item/others/leaf_clover"},
+    {"predicate": {"custom_model_data":11}, "model": "item/others/rocket_launcher"},
+    {"predicate": {"custom_model_data":12}, "model": "item/others/ticket_rtp"},
+    {"predicate": {"custom_model_data":13}, "model": "item/others/steel_stick"},
+    {"predicate": {"custom_model_data":14}, "model": "item/others/icon_cancel"},
+    {"predicate": {"custom_model_data":15}, "model": "item/others/icon_confirm"},
+		{"predicate": {"custom_model_data":16}, "model": "item/others/icon_crown"},
+		{"predicate": {"custom_model_data":17}, "model": "item/others/icon_nitro"}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/blue_dye"
+	},
+
+	"overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/beverages/biere"},
+    {"predicate": {"custom_model_data":2}, "model": "item/beverages/cafeine"},
+    {"predicate": {"custom_model_data":3}, "model": "item/beverages/canette"},
+    {"predicate": {"custom_model_data":4}, "model": "item/beverages/choppe"},
+    {"predicate": {"custom_model_data":5}, "model": "item/beverages/coca"},
+    {"predicate": {"custom_model_data":6}, "model": "item/beverages/cola"},
+		{"predicate": {"custom_model_data":7}, "model": "item/beverages/redbull"}
+	]
+}

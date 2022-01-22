@@ -1,0 +1,18 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_pickaxe"
+	},
+
+	"overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/pickaxes/obsidian_pickaxe"},
+    {"predicate": {"custom_model_data":2}, "model": "item/pickaxes/emerald_pickaxe"},
+    {"predicate": {"custom_model_data":3}, "model": "item/pickaxes/saphir_pickaxe"},
+    {"predicate": {"custom_model_data":4}, "model": "item/pickaxes/rubis_pickaxe"},
+    {"predicate": {"custom_model_data":5}, "model": "item/pickaxes/topaze_pickaxe"},
+    {"predicate": {"custom_model_data":6}, "model": "item/pickaxes/asvadium_pickaxe"},
+		{"predicate": {"custom_model_data":7}, "model": "item/pickaxes/legendary_pickaxe"},
+		{"predicate": {"custom_model_data":8}, "model": "item/hammers/asvadium_hammer"},
+		{"predicate": {"custom_model_data":9}, "model": "item/hammers/legendary_hammer"}
+	]
+}

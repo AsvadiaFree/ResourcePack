@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "layer0": "readme/asvadia/textures/items/u_finders/u_finder_mercenaire"
+	}
+}

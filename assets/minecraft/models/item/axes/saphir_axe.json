@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	  "layer0": "readme/asvadia/textures/items/axes/saphir_axe"
+	}
+}

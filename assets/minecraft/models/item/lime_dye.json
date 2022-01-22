@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/lime_dye"
+	},
+
+	"overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/u_finders/u_finder_default"},
+		{"predicate": {"custom_model_data":2}, "model": "item/u_finders/u_finder_mercenaire"},
+    {"predicate": {"custom_model_data":3}, "model": "item/u_finders/u_finder_legendary"}
+	]
+}

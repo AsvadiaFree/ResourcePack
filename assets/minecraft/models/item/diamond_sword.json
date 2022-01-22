@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+
+	"overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/swords/obsidian_sword"},
+    {"predicate": {"custom_model_data":2}, "model": "item/swords/emerald_sword"},
+    {"predicate": {"custom_model_data":3}, "model": "item/swords/saphir_sword"},
+    {"predicate": {"custom_model_data":4}, "model": "item/swords/rubis_sword"},
+    {"predicate": {"custom_model_data":5}, "model": "item/swords/topaze_sword"},
+    {"predicate": {"custom_model_data":6}, "model": "item/swords/asvadium_sword"},
+		{"predicate": {"custom_model_data":7}, "model": "item/swords/legendary_sword"}
+	]
+}
